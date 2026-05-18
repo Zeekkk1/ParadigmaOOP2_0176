@@ -34,7 +34,7 @@ public:
    budi(int pUmur):
        pekerja(pUmur),
        pelajar(pUmur),
-       orang(pUm)
+       orang(pUmur)
     {
         cout << "Budi dibuat\n" << endl;
     }
