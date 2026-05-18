@@ -11,4 +11,21 @@ public:
     void pesan() {
         cout << "Pesan dari joko " << endl;
     }
+};
+
+class lia :public seseorang{
+public:
+    void pesan() {
+        cout << "Pesan dari lia" << emdl;
+    }
+};
+
+int main(){
+    seseorang* obyek;
+    joko a;
+    loa b;
+
+    obyek = &a;
+    obye
+
 }
