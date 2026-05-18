@@ -20,7 +20,7 @@ public:
     }
 };
 
-class pelajar : public orang {
+class pelajar : virtual public orang {
 public:
     pelajar(int pUmur) :
        orang(pUmur)
@@ -33,7 +33,8 @@ class budi : public pekerja, public pelajar {
 public: 
    budi(int pUmur):
        pekerja(pUmur),
-       pelajar(pUmur)
+       pelajar(pUmur),
+       orang(pUm)
     {
         cout << "Budi dibuat\n" << endl;
     }
